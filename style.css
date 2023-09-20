@@ -1,0 +1,16 @@
+body{
+    background-color: khaki;
+}
+h1::after{
+    content:"Lets study"
+}
+p::first-line{
+    background-color: blue;
+}
+p::first-letter{
+    background-color: yellow;
+    font-size: 60px;
+}
+p::grammar-error{
+    background-color: pink;
+}
